@@ -19,10 +19,12 @@ const Profile = () => {
     const user = users.find(user => user.id === Number(id))
 
   return (
-    <>
+        user ?
+        <>
         <h4> This user id is {id} </h4>
-        <h2>{user ? user.email : ''}</h2>
-    </>
+        <h2>{user.email}</h2>
+        </>
+        : <h2>{"Couldn't find your request!"}</h2>
   )
 }
 

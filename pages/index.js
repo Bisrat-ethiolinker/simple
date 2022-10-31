@@ -1,4 +1,4 @@
-// import "../styles/Home.module.css"
+import "../styles/Home.module.css"
 
 import ArticleList from "../components/ArticleList";
 import Header from "../components/Header";

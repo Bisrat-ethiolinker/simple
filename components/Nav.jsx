@@ -28,7 +28,7 @@ const Nav = () => {
                 </Link>
             </li>
             </ul>
-            <Avatar>BG</Avatar>
+            <Avatar alt="Dwayne Jhonson" src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" />
         </List>
             
         // </ul>

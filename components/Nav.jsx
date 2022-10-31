@@ -1,15 +1,37 @@
 import Link from "next/link"
 import navStyle from "../styles/Nav.module.css"
+import styled from "@emotion/styled"
+import { Avatar } from "@mui/material"
+
+const List = styled.div`
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 9px;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`
 
 const Nav = () => {
     return (
-        <ul className={navStyle.ul}>
-            <li className={navStyle.li}>
+        
+        <List>
+            <ul className={navStyle.ul}>
+            <li 
+            className={navStyle.li}
+            >
                 <Link href='/' >
                     Home
                 </Link>
             </li>
-        </ul>
+            </ul>
+            <Avatar>BG</Avatar>
+        </List>
+            
+        // </ul>
     )
 }
 
